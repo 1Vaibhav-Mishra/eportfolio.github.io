@@ -44,10 +44,10 @@ $(document).ready(function () {
           e.preventDefault(); // prevent default form submit behavior
 
           // initialize EmailJS with your user ID
-          emailjs.init("service_93d7nba");
+          emailjs.init("5kAaQYuH9m5ImJE5Q");
 
           // send the form data to your email service using EmailJS
-          emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+          emailjs.sendForm('service_93d7nba', 'template_yqkl8vs', '#contact-form','5kAaQYuH9m5ImJE5Q')
               .then(function(response) {
                   console.log("SUCCESS!", response.status, response.text);
                   alert("Form submitted successfully!");
